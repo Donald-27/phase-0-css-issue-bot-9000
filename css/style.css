@@ -1,6 +1,7 @@
 body {
- color: pink; /* Corrected background property*/
+  background: pink; /* Change from background-color to background */
 }
+
 
 h1 {
   color: blue;
@@ -9,16 +10,16 @@ h1 {
 
 h2 {
   color: green;
-  font-weight: normal; /* Added missing semicolon */
+  font-weight: normal;
   font-style: italic;
 }
 
 .completed {
   font-size: 12px;
-  font-family: Arial, sans-serif; /* Added a valid font-family */
+  font-family: Arial, sans-serif;
 }
 
 #tasks .completed {
-  background: #ccc;
+  background: #ccc; /* Change from background-color to background */
   text-decoration: underline;
 }
